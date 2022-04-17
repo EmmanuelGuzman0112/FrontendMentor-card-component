@@ -51,10 +51,14 @@ body {
     align-items: center;
     border-bottom: 1px solid var(--light-gray);
 
+    //Ajusto la imagen que tenga un ancho y largo definido
     &-img {
+      width: 200px;
+      height: 200px;
       border: 5px solid white;
       border-radius: 50%;
-      margin-top: calc(-48px - 5px);
+      //La mitad de height: 100px
+      margin-top: calc(-100px - 5px);
     }
 
     &-title {
